@@ -1,0 +1,21 @@
+{
+  "name": "usdc-agent-vault",
+  "version": "1.0.0",
+  "description": "USDC Agent Vault - MEV-protected vault for AI agents",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js"
+  },
+  "keywords": ["USDC", "DeFi", "AI", "Agent", "MEV"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.1"
+  }
+}
